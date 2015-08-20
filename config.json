@@ -1,0 +1,26 @@
+{
+	"local": {
+		"mysql": {
+			"db": "db_mercadoni",
+			"user": "root",
+			"password": "copito",
+			"host": "localhost"
+		},
+		"cookie": {
+			"parser": "agilggsdo947wernLHR049uKp98CLksjO",
+			"key": "Mercadoni-Dev-Token"
+		}
+	},
+	"dev": {
+		"cookie": {
+			"parser": "agilggsdo947wernLHR049uKp98CLksjO",
+			"key": "Mercadoni-Dev-Token"
+		}
+	},
+	"live": {
+		"cookie": {
+			"parser": "agilggsdo947wernLHR049uKp98CLksjO",
+			"key": "Mercadoni-Dev-Token"
+		}
+	}
+}
