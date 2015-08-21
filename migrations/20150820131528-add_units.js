@@ -11,15 +11,9 @@ module.exports = {
 				},
 				name: {
 					type: Sequelize.STRING,
-					validate: {
-						allowNull: false
-					}
 				},
 				abbreviation: {
 					type: Sequelize.STRING,
-					validate: {
-						allowNull: false
-					}
 				},
 				updated_at: {
 					type: Sequelize.DATE

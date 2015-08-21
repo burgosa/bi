@@ -11,22 +11,12 @@ module.exports = {
 				},
 				first_name: {
 					type: Sequelize.STRING,
-					validate: {
-						allowNull: false
-					}
 				},
 				last_name: {
 					type: Sequelize.STRING,
-					validate: {
-						allowNull: false
-					}
 				},
 				email: {
 					type: Sequelize.STRING,
-					validate: {
-						allowNull: false,
-						isEmail: true
-					}
 				},
 				password: {
 					type: Sequelize.STRING
@@ -39,10 +29,6 @@ module.exports = {
 				},
 				profile: {
 					type: Sequelize.INTEGER,
-					validate: {
-						isInt: true,
-						allowNull: false
-					}
 				},
 				updated_at: {
 					type: Sequelize.DATE

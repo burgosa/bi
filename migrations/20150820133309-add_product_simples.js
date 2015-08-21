@@ -10,19 +10,22 @@ module.exports = {
 					autoIncrement: true
 				},
 				slug: {
-					type: Sequelize.STRING,
+					type: Sequelize.STRING
 				},
 				name: {
-					type: Sequelize.STRING,
+					type: Sequelize.STRING
 				},
 				sku: {
-					type: Sequelize.STRING,
+					type: Sequelize.STRING
 				},
 				processed: {
-					type: Sequelize.INTEGER,
+					type: Sequelize.INTEGER
 				},
 				unit_id: {
-					type: Sequelize.INTEGER,
+					type: Sequelize.INTEGER
+				},
+				active: {
+					type: Sequelize.BOOLEAN
 				},
 				updated_at: {
 					type: Sequelize.DATE
